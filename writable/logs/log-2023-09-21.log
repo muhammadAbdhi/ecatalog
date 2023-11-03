@@ -1,0 +1,38 @@
+CRITICAL - 2023-09-21 13:22:06 --> Undefined variable $random_string
+in APPPATH\Views\V_RandomString.php on line 12.
+ 1 APPPATH\Views\V_RandomString.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $random_string', 'C:\\xampp\\htdocs\\BelajarFrameworkCI\\app\\Views\\V_RandomString.php', 12)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\BelajarFrameworkCI\\app\\Views\\V_RandomString.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('V_RandomString', [], true)
+ 5 APPPATH\Controllers\C_RandomString.php(12): view('V_RandomString', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\C_RandomString->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_RandomString))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-21 13:25:10 --> Undefined property: App\Controllers\C_RandomString::$load
+in APPPATH\Controllers\C_RandomString.php on line 10.
+ 1 APPPATH\Controllers\C_RandomString.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\C_RandomString::$load', 'C:\\xampp\\htdocs\\BelajarFrameworkCI\\app\\Controllers\\C_RandomString.php', 10)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\C_RandomString->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_RandomString))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-21 13:27:52 --> Undefined variable $random_string
+in APPPATH\Views\V_RandomString.php on line 12.
+ 1 APPPATH\Views\V_RandomString.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $random_string', 'C:\\xampp\\htdocs\\BelajarFrameworkCI\\app\\Views\\V_RandomString.php', 12)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\BelajarFrameworkCI\\app\\Views\\V_RandomString.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('V_RandomString', [], true)
+ 5 APPPATH\Controllers\C_RandomString.php(12): view('V_RandomString', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\C_RandomString->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_RandomString))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-21 13:51:55 --> Invalid file: "V_LibraryRumus.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('V_LibraryRumus.php')
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('V_LibraryRumus', [], true)
+ 3 APPPATH\Controllers\C_LibraryRumus.php(22): view('V_LibraryRumus', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\C_LibraryRumus->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_LibraryRumus))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

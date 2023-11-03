@@ -1,0 +1,1 @@
+<h4>Hello, Saya sedang belajar View pada Codeigniter</h4>

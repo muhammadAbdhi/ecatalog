@@ -1,0 +1,12 @@
+CRITICAL - 2023-10-10 17:12:39 --> include(template/topbar.php): Failed to open stream: No such file or directory
+in APPPATH\Views\Mahasiswa_View.php on line 3.
+ 1 APPPATH\Views\Mahasiswa_View.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(template/topbar.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\BelajarFrameworkCI\\app\\Views\\Mahasiswa_View.php', 3)
+ 2 APPPATH\Views\Mahasiswa_View.php(3): include()
+ 3 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\BelajarFrameworkCI\\app\\Views\\Mahasiswa_View.php')
+ 4 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('Mahasiswa_View', [], true)
+ 6 APPPATH\Controllers\Mahasiswa_C.php(17): view('Mahasiswa_View', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Mahasiswa_C->index()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa_C))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

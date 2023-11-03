@@ -1,0 +1,29 @@
+CRITICAL - 2023-10-14 06:52:48 --> CodeIgniter\HTTP\URI::getSegment(): Argument #1 ($number) must be of type int, string given, called in C:\xampp\htdocs\BelajarFrameworkCI\app\Controllers\Mahasiswa_C.php on line 89
+in SYSTEMPATH\HTTP\URI.php on line 543.
+ 1 APPPATH\Controllers\Mahasiswa_C.php(89): CodeIgniter\HTTP\URI->getSegment('id')
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Mahasiswa_C->edit('2111016110009')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa_C))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-14 06:52:48 --> CodeIgniter\HTTP\URI::getSegment(): Argument #1 ($number) must be of type int, string given, called in C:\xampp\htdocs\BelajarFrameworkCI\app\Controllers\Mahasiswa_C.php on line 89
+in SYSTEMPATH\HTTP\URI.php on line 543.
+ 1 APPPATH\Controllers\Mahasiswa_C.php(89): CodeIgniter\HTTP\URI->getSegment('id')
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Mahasiswa_C->edit('2111016110009')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa_C))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-14 07:07:56 --> Undefined property: stdClass::$kode_mk
+in APPPATH\Views\V_Mahasiswa2.php on line 45.
+ 1 APPPATH\Views\V_Mahasiswa2.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$kode_mk', 'C:\\xampp\\htdocs\\BelajarFrameworkCI\\app\\Views\\V_Mahasiswa2.php', 45)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\BelajarFrameworkCI\\app\\Views\\V_Mahasiswa2.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('V_Mahasiswa2', [], true)
+ 5 APPPATH\Views\template.php(30): view('V_Mahasiswa2')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\BelajarFrameworkCI\\app\\Views\\template.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('template', [], true)
+ 9 APPPATH\Controllers\Mahasiswa_C.php(19): view('template', [...])
+10 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Mahasiswa_C->index()
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa_C))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

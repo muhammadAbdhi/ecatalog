@@ -1,0 +1,1073 @@
+CRITICAL - 2023-10-11 09:17:30 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 883.
+ 1 SYSTEMPATH\Model.php(642): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(828): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Mahasiswa_C.php(53): CodeIgniter\Model->__call('getDataById', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Mahasiswa_C->edit('123123')
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa_C))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-11 09:28:30 --> Invalid file: "v_mahasiswa_edit.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('v_mahasiswa_edit.php')
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('v_mahasiswa_edit', [], true)
+ 3 APPPATH\Views\template.php(31): view('v_mahasiswa_edit')
+ 4 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\BelajarFrameworkCI\\app\\Views\\template.php')
+ 5 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('template', [], true)
+ 7 APPPATH\Controllers\Mahasiswa_C.php(58): view('template', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Mahasiswa_C->edit('123123')
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa_C))
+10 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-11 09:33:17 --> Undefined variable $mahasiswa
+in APPPATH\Views\V_Mahasiswa_Edit.php on line 22.
+ 1 APPPATH\Views\V_Mahasiswa_Edit.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $mahasiswa', 'C:\\xampp\\htdocs\\BelajarFrameworkCI\\app\\Views\\V_Mahasiswa_Edit.php', 22)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\BelajarFrameworkCI\\app\\Views\\V_Mahasiswa_Edit.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('v_mahasiswa_edit', [], true)
+ 5 APPPATH\Views\template.php(31): view('v_mahasiswa_edit')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\BelajarFrameworkCI\\app\\Views\\template.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('template', [], true)
+ 9 APPPATH\Controllers\Mahasiswa_C.php(58): view('template', [...])
+10 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Mahasiswa_C->edit('123123')
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa_C))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-11 09:35:22 --> Undefined variable $mahasiswa
+in APPPATH\Views\V_Mahasiswa_Edit.php on line 22.
+ 1 APPPATH\Views\V_Mahasiswa_Edit.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $mahasiswa', 'C:\\xampp\\htdocs\\BelajarFrameworkCI\\app\\Views\\V_Mahasiswa_Edit.php', 22)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\BelajarFrameworkCI\\app\\Views\\V_Mahasiswa_Edit.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('v_mahasiswa_edit', [], true)
+ 5 APPPATH\Views\template.php(31): view('v_mahasiswa_edit')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\BelajarFrameworkCI\\app\\Views\\template.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('template', [], true)
+ 9 APPPATH\Controllers\Mahasiswa_C.php(58): view('template', [...])
+10 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Mahasiswa_C->edit('123123')
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa_C))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-11 09:41:22 --> Undefined property: stdClass::$nama
+in APPPATH\Views\V_Mahasiswa_Edit.php on line 29.
+ 1 APPPATH\Views\V_Mahasiswa_Edit.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$nama', 'C:\\xampp\\htdocs\\BelajarFrameworkCI\\app\\Views\\V_Mahasiswa_Edit.php', 29)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\BelajarFrameworkCI\\app\\Views\\V_Mahasiswa_Edit.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('v_mahasiswa_edit', [], true)
+ 5 APPPATH\Views\template.php(31): view('v_mahasiswa_edit')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\BelajarFrameworkCI\\app\\Views\\template.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('template', [], true)
+ 9 APPPATH\Controllers\Mahasiswa_C.php(58): view('template', [...])
+10 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Mahasiswa_C->edit('123123')
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa_C))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-11 09:41:31 --> Undefined property: stdClass::$nama
+in APPPATH\Views\V_Mahasiswa_Edit.php on line 29.
+ 1 APPPATH\Views\V_Mahasiswa_Edit.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$nama', 'C:\\xampp\\htdocs\\BelajarFrameworkCI\\app\\Views\\V_Mahasiswa_Edit.php', 29)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\BelajarFrameworkCI\\app\\Views\\V_Mahasiswa_Edit.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('v_mahasiswa_edit', [], true)
+ 5 APPPATH\Views\template.php(31): view('v_mahasiswa_edit')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\BelajarFrameworkCI\\app\\Views\\template.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('template', [], true)
+ 9 APPPATH\Controllers\Mahasiswa_C.php(58): view('template', [...])
+10 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Mahasiswa_C->edit('123123')
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa_C))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-11 09:43:04 --> mysqli_sql_exception: Unknown column 'nama' in 'field list' in C:\xampp\htdocs\BelajarFrameworkCI\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\BelajarFrameworkCI\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `nim`, `...', 0)
+#1 C:\xampp\htdocs\BelajarFrameworkCI\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `nim`, `...')
+#2 C:\xampp\htdocs\BelajarFrameworkCI\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `nim`, `...')
+#3 C:\xampp\htdocs\BelajarFrameworkCI\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `nim`, `...', Array, false)
+#4 C:\xampp\htdocs\BelajarFrameworkCI\app\Models\M_MahasiswaModel.php(23): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\BelajarFrameworkCI\app\Controllers\Mahasiswa_C.php(56): App\Models\M_MahasiswaModel->getDataById('123123')
+#6 C:\xampp\htdocs\BelajarFrameworkCI\system\CodeIgniter.php(932): App\Controllers\Mahasiswa_C->edit('123123')
+#7 C:\xampp\htdocs\BelajarFrameworkCI\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa_C))
+#8 C:\xampp\htdocs\BelajarFrameworkCI\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\BelajarFrameworkCI\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-10-11 09:43:04 --> Unknown column 'nama' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `nim`, `nama`, `jenisKelamin`, `tgl_lahir`, `alamat`
+FROM `mahasiswa`
+WHERE `nim` = \'123123\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `nim`, `nama`, `jenisKelamin`, `tgl_lahir`, `alamat`
+FROM `mahasiswa`
+WHERE `nim` = \'123123\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `nim`, `nama`, `jenisKelamin`, `tgl_lahir`, `alamat`
+FROM `mahasiswa`
+WHERE `nim` = \'123123\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `nim`, `nama`, `jenisKelamin`, `tgl_lahir`, `alamat`
+FROM `mahasiswa`
+WHERE `nim` = :nim:', [...], false)
+ 5 APPPATH\Models\M_MahasiswaModel.php(23): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Mahasiswa_C.php(56): App\Models\M_MahasiswaModel->getDataById('123123')
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Mahasiswa_C->edit('123123')
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa_C))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-11 09:43:12 --> mysqli_sql_exception: Unknown column 'nama' in 'field list' in C:\xampp\htdocs\BelajarFrameworkCI\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\BelajarFrameworkCI\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `nim`, `...', 0)
+#1 C:\xampp\htdocs\BelajarFrameworkCI\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `nim`, `...')
+#2 C:\xampp\htdocs\BelajarFrameworkCI\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `nim`, `...')
+#3 C:\xampp\htdocs\BelajarFrameworkCI\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `nim`, `...', Array, false)
+#4 C:\xampp\htdocs\BelajarFrameworkCI\app\Models\M_MahasiswaModel.php(23): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\BelajarFrameworkCI\app\Controllers\Mahasiswa_C.php(56): App\Models\M_MahasiswaModel->getDataById('12345')
+#6 C:\xampp\htdocs\BelajarFrameworkCI\system\CodeIgniter.php(932): App\Controllers\Mahasiswa_C->edit('12345')
+#7 C:\xampp\htdocs\BelajarFrameworkCI\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa_C))
+#8 C:\xampp\htdocs\BelajarFrameworkCI\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\BelajarFrameworkCI\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-10-11 09:43:12 --> Unknown column 'nama' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `nim`, `nama`, `jenisKelamin`, `tgl_lahir`, `alamat`
+FROM `mahasiswa`
+WHERE `nim` = \'12345\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `nim`, `nama`, `jenisKelamin`, `tgl_lahir`, `alamat`
+FROM `mahasiswa`
+WHERE `nim` = \'12345\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `nim`, `nama`, `jenisKelamin`, `tgl_lahir`, `alamat`
+FROM `mahasiswa`
+WHERE `nim` = \'12345\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `nim`, `nama`, `jenisKelamin`, `tgl_lahir`, `alamat`
+FROM `mahasiswa`
+WHERE `nim` = :nim:', [...], false)
+ 5 APPPATH\Models\M_MahasiswaModel.php(23): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Mahasiswa_C.php(56): App\Models\M_MahasiswaModel->getDataById('12345')
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Mahasiswa_C->edit('12345')
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa_C))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-11 09:43:46 --> Undefined property: stdClass::$nama
+in APPPATH\Views\V_Mahasiswa_Edit.php on line 29.
+ 1 APPPATH\Views\V_Mahasiswa_Edit.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$nama', 'C:\\xampp\\htdocs\\BelajarFrameworkCI\\app\\Views\\V_Mahasiswa_Edit.php', 29)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\BelajarFrameworkCI\\app\\Views\\V_Mahasiswa_Edit.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('v_mahasiswa_edit', [], true)
+ 5 APPPATH\Views\template.php(31): view('v_mahasiswa_edit')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\BelajarFrameworkCI\\app\\Views\\template.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('template', [], true)
+ 9 APPPATH\Controllers\Mahasiswa_C.php(58): view('template', [...])
+10 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Mahasiswa_C->edit('12345')
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa_C))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-11 09:44:03 --> Undefined property: stdClass::$jenisKelamin
+in APPPATH\Views\V_Mahasiswa_Edit.php on line 37.
+ 1 APPPATH\Views\V_Mahasiswa_Edit.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$jenisKelamin', 'C:\\xampp\\htdocs\\BelajarFrameworkCI\\app\\Views\\V_Mahasiswa_Edit.php', 37)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\BelajarFrameworkCI\\app\\Views\\V_Mahasiswa_Edit.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('v_mahasiswa_edit', [], true)
+ 5 APPPATH\Views\template.php(31): view('v_mahasiswa_edit')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\BelajarFrameworkCI\\app\\Views\\template.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('template', [], true)
+ 9 APPPATH\Controllers\Mahasiswa_C.php(58): view('template', [...])
+10 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Mahasiswa_C->edit('12345')
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa_C))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-11 09:47:47 --> mysqli_sql_exception: Duplicate entry '123123' for key 'PRIMARY' in C:\xampp\htdocs\BelajarFrameworkCI\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\BelajarFrameworkCI\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `ma...', 0)
+#1 C:\xampp\htdocs\BelajarFrameworkCI\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ma...')
+#2 C:\xampp\htdocs\BelajarFrameworkCI\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ma...')
+#3 C:\xampp\htdocs\BelajarFrameworkCI\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ma...', Array, false)
+#4 C:\xampp\htdocs\BelajarFrameworkCI\app\Models\M_MahasiswaModel.php(15): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\BelajarFrameworkCI\app\Controllers\Mahasiswa_C.php(32): App\Models\M_MahasiswaModel->insertData(Array)
+#6 C:\xampp\htdocs\BelajarFrameworkCI\system\CodeIgniter.php(932): App\Controllers\Mahasiswa_C->submit()
+#7 C:\xampp\htdocs\BelajarFrameworkCI\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa_C))
+#8 C:\xampp\htdocs\BelajarFrameworkCI\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\BelajarFrameworkCI\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-10-11 09:47:47 --> Duplicate entry '123123' for key 'PRIMARY'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `mahasiswa` (`nim`, `nama_mhs`, `jenis_kelamin`, `tgl_lahir`, `alamat`) VALUES (\'123123\', \'test edit\', \'Perempuan\', \'2023-08-31\', \'jalan berhasil\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `mahasiswa` (`nim`, `nama_mhs`, `jenis_kelamin`, `tgl_lahir`, `alamat`) VALUES (\'123123\', \'test edit\', \'Perempuan\', \'2023-08-31\', \'jalan berhasil\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `mahasiswa` (`nim`, `nama_mhs`, `jenis_kelamin`, `tgl_lahir`, `alamat`) VALUES (\'123123\', \'test edit\', \'Perempuan\', \'2023-08-31\', \'jalan berhasil\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `mahasiswa` (`nim`, `nama_mhs`, `jenis_kelamin`, `tgl_lahir`, `alamat`) VALUES (:nim:, :nama_mhs:, :jenis_kelamin:, :tgl_lahir:, :alamat:)', [...], false)
+ 5 APPPATH\Models\M_MahasiswaModel.php(15): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\Mahasiswa_C.php(32): App\Models\M_MahasiswaModel->insertData([...])
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Mahasiswa_C->submit()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa_C))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-11 11:24:00 --> Attempt to read property "nim" on null
+in APPPATH\Views\V_Mahasiswa_Edit.php on line 22.
+ 1 APPPATH\Views\V_Mahasiswa_Edit.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nim" on null', 'C:\\xampp\\htdocs\\BelajarFrameworkCI\\app\\Views\\V_Mahasiswa_Edit.php', 22)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\BelajarFrameworkCI\\app\\Views\\V_Mahasiswa_Edit.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('v_mahasiswa_edit', [], true)
+ 5 APPPATH\Views\template.php(30): view('v_mahasiswa_edit')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\BelajarFrameworkCI\\app\\Views\\template.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('template', [], true)
+ 9 APPPATH\Controllers\Mahasiswa_C.php(58): view('template', [...])
+10 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Mahasiswa_C->edit('1111')
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa_C))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-11 11:24:08 --> Attempt to read property "nim" on null
+in APPPATH\Views\V_Mahasiswa_Edit.php on line 22.
+ 1 APPPATH\Views\V_Mahasiswa_Edit.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nim" on null', 'C:\\xampp\\htdocs\\BelajarFrameworkCI\\app\\Views\\V_Mahasiswa_Edit.php', 22)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\BelajarFrameworkCI\\app\\Views\\V_Mahasiswa_Edit.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('v_mahasiswa_edit', [], true)
+ 5 APPPATH\Views\template.php(30): view('v_mahasiswa_edit')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\BelajarFrameworkCI\\app\\Views\\template.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('template', [], true)
+ 9 APPPATH\Controllers\Mahasiswa_C.php(58): view('template', [...])
+10 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Mahasiswa_C->edit('1111')
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa_C))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-11 11:44:17 --> mysqli_sql_exception: Unknown column 'nip' in 'where clause' in C:\xampp\htdocs\BelajarFrameworkCI\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\BelajarFrameworkCI\system\Database\MySQLi\Connection.php(295): mysqli->query('DELETE FROM `ma...', 0)
+#1 C:\xampp\htdocs\BelajarFrameworkCI\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `ma...')
+#2 C:\xampp\htdocs\BelajarFrameworkCI\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `ma...')
+#3 C:\xampp\htdocs\BelajarFrameworkCI\system\Database\BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query('DELETE FROM `ma...', Array, false)
+#4 C:\xampp\htdocs\BelajarFrameworkCI\app\Models\M_Mata_KuliahModel.php(36): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\xampp\htdocs\BelajarFrameworkCI\app\Controllers\Mata_Kuliah_C.php(83): App\Models\M_Mata_KuliahModel->deleteData('A002')
+#6 C:\xampp\htdocs\BelajarFrameworkCI\system\CodeIgniter.php(932): App\Controllers\Mata_Kuliah_C->delete('A002')
+#7 C:\xampp\htdocs\BelajarFrameworkCI\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mata_Kuliah_C))
+#8 C:\xampp\htdocs\BelajarFrameworkCI\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\BelajarFrameworkCI\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-10-11 11:44:17 --> Unknown column 'nip' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('DELETE FROM `matakuliah`
+WHERE `nip` = \'A002\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `matakuliah`
+WHERE `nip` = \'A002\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `matakuliah`
+WHERE `nip` = \'A002\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query('DELETE FROM `matakuliah`
+WHERE `nip` = :nip:', [...], false)
+ 5 APPPATH\Models\M_Mata_KuliahModel.php(36): CodeIgniter\Database\BaseBuilder->delete()
+ 6 APPPATH\Controllers\Mata_Kuliah_C.php(83): App\Models\M_Mata_KuliahModel->deleteData('A002')
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Mata_Kuliah_C->delete('A002')
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mata_Kuliah_C))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-11 14:30:35 --> Invalid file: "v_mata_kuliah_edit.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('v_mata_kuliah_edit.php')
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('v_mata_kuliah_edit', [], true)
+ 3 APPPATH\Views\template.php(30): view('v_mata_kuliah_edit')
+ 4 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\BelajarFrameworkCI\\app\\Views\\template.php')
+ 5 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('template', [], true)
+ 7 APPPATH\Controllers\Mata_Kuliah_C.php(56): view('template', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Mata_Kuliah_C->edit('A001')
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mata_Kuliah_C))
+10 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-11 15:07:32 --> Attempt to read property "nim" on array
+in APPPATH\Views\V_Perkuliahan.php on line 40.
+ 1 APPPATH\Views\V_Perkuliahan.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nim" on array', 'C:\\xampp\\htdocs\\BelajarFrameworkCI\\app\\Views\\V_Perkuliahan.php', 40)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\BelajarFrameworkCI\\app\\Views\\V_Perkuliahan.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('V_Perkuliahan', [], true)
+ 5 APPPATH\Views\template.php(30): view('V_Perkuliahan')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\BelajarFrameworkCI\\app\\Views\\template.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('template', [], true)
+ 9 APPPATH\Controllers\Perkuliahan_C.php(19): view('template', [...])
+10 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Perkuliahan_C->index()
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Perkuliahan_C))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-11 15:08:43 --> Undefined variable $getPerkuliahanWithRelations
+in APPPATH\Views\V_Perkuliahan.php on line 37.
+ 1 APPPATH\Views\V_Perkuliahan.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $getPerkuliahanWithRelations', 'C:\\xampp\\htdocs\\BelajarFrameworkCI\\app\\Views\\V_Perkuliahan.php', 37)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\BelajarFrameworkCI\\app\\Views\\V_Perkuliahan.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('V_Perkuliahan', [], true)
+ 5 APPPATH\Views\template.php(30): view('V_Perkuliahan')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\BelajarFrameworkCI\\app\\Views\\template.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('template', [], true)
+ 9 APPPATH\Controllers\Perkuliahan_C.php(19): view('template', [...])
+10 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Perkuliahan_C->index()
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Perkuliahan_C))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-11 15:09:27 --> Attempt to read property "nim" on array
+in APPPATH\Views\V_Perkuliahan.php on line 40.
+ 1 APPPATH\Views\V_Perkuliahan.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nim" on array', 'C:\\xampp\\htdocs\\BelajarFrameworkCI\\app\\Views\\V_Perkuliahan.php', 40)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\BelajarFrameworkCI\\app\\Views\\V_Perkuliahan.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('V_Perkuliahan', [], true)
+ 5 APPPATH\Views\template.php(30): view('V_Perkuliahan')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\BelajarFrameworkCI\\app\\Views\\template.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('template', [], true)
+ 9 APPPATH\Controllers\Perkuliahan_C.php(19): view('template', [...])
+10 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Perkuliahan_C->index()
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Perkuliahan_C))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-11 15:09:30 --> Attempt to read property "nim" on array
+in APPPATH\Views\V_Perkuliahan.php on line 40.
+ 1 APPPATH\Views\V_Perkuliahan.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nim" on array', 'C:\\xampp\\htdocs\\BelajarFrameworkCI\\app\\Views\\V_Perkuliahan.php', 40)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\BelajarFrameworkCI\\app\\Views\\V_Perkuliahan.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('V_Perkuliahan', [], true)
+ 5 APPPATH\Views\template.php(30): view('V_Perkuliahan')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\BelajarFrameworkCI\\app\\Views\\template.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('template', [], true)
+ 9 APPPATH\Controllers\Perkuliahan_C.php(19): view('template', [...])
+10 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Perkuliahan_C->index()
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Perkuliahan_C))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-11 15:09:44 --> Attempt to read property "nim" on array
+in APPPATH\Views\V_Perkuliahan.php on line 28.
+ 1 APPPATH\Views\V_Perkuliahan.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nim" on array', 'C:\\xampp\\htdocs\\BelajarFrameworkCI\\app\\Views\\V_Perkuliahan.php', 28)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\BelajarFrameworkCI\\app\\Views\\V_Perkuliahan.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('V_Perkuliahan', [], true)
+ 5 APPPATH\Views\template.php(30): view('V_Perkuliahan')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\BelajarFrameworkCI\\app\\Views\\template.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('template', [], true)
+ 9 APPPATH\Controllers\Perkuliahan_C.php(19): view('template', [...])
+10 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Perkuliahan_C->index()
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Perkuliahan_C))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-11 15:09:51 --> Attempt to read property "nim" on array
+in APPPATH\Views\V_Perkuliahan.php on line 28.
+ 1 APPPATH\Views\V_Perkuliahan.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nim" on array', 'C:\\xampp\\htdocs\\BelajarFrameworkCI\\app\\Views\\V_Perkuliahan.php', 28)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\BelajarFrameworkCI\\app\\Views\\V_Perkuliahan.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('V_Perkuliahan', [], true)
+ 5 APPPATH\Views\template.php(30): view('V_Perkuliahan')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\BelajarFrameworkCI\\app\\Views\\template.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('template', [], true)
+ 9 APPPATH\Controllers\Perkuliahan_C.php(19): view('template', [...])
+10 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Perkuliahan_C->index()
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Perkuliahan_C))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-11 15:11:57 --> Attempt to read property "id_perkuliahan" on array
+in APPPATH\Views\V_Perkuliahan.php on line 30.
+ 1 APPPATH\Views\V_Perkuliahan.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id_perkuliahan" on array', 'C:\\xampp\\htdocs\\BelajarFrameworkCI\\app\\Views\\V_Perkuliahan.php', 30)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\BelajarFrameworkCI\\app\\Views\\V_Perkuliahan.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('V_Perkuliahan', [], true)
+ 5 APPPATH\Views\template.php(30): view('V_Perkuliahan')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\BelajarFrameworkCI\\app\\Views\\template.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('template', [], true)
+ 9 APPPATH\Controllers\Perkuliahan_C.php(19): view('template', [...])
+10 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Perkuliahan_C->index()
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Perkuliahan_C))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-11 15:14:33 --> Attempt to read property "id_perkuliahan" on array
+in APPPATH\Views\V_Perkuliahan.php on line 30.
+ 1 APPPATH\Views\V_Perkuliahan.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id_perkuliahan" on array', 'C:\\xampp\\htdocs\\BelajarFrameworkCI\\app\\Views\\V_Perkuliahan.php', 30)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\BelajarFrameworkCI\\app\\Views\\V_Perkuliahan.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('V_Perkuliahan', [], true)
+ 5 APPPATH\Views\template.php(30): view('V_Perkuliahan')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\BelajarFrameworkCI\\app\\Views\\template.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('template', [], true)
+ 9 APPPATH\Controllers\Perkuliahan_C.php(19): view('template', [...])
+10 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Perkuliahan_C->index()
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Perkuliahan_C))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-11 15:14:35 --> Attempt to read property "id_perkuliahan" on array
+in APPPATH\Views\V_Perkuliahan.php on line 30.
+ 1 APPPATH\Views\V_Perkuliahan.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id_perkuliahan" on array', 'C:\\xampp\\htdocs\\BelajarFrameworkCI\\app\\Views\\V_Perkuliahan.php', 30)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\BelajarFrameworkCI\\app\\Views\\V_Perkuliahan.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('V_Perkuliahan', [], true)
+ 5 APPPATH\Views\template.php(30): view('V_Perkuliahan')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\BelajarFrameworkCI\\app\\Views\\template.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('template', [], true)
+ 9 APPPATH\Controllers\Perkuliahan_C.php(19): view('template', [...])
+10 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Perkuliahan_C->index()
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Perkuliahan_C))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-11 15:14:36 --> Attempt to read property "id_perkuliahan" on array
+in APPPATH\Views\V_Perkuliahan.php on line 30.
+ 1 APPPATH\Views\V_Perkuliahan.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id_perkuliahan" on array', 'C:\\xampp\\htdocs\\BelajarFrameworkCI\\app\\Views\\V_Perkuliahan.php', 30)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\BelajarFrameworkCI\\app\\Views\\V_Perkuliahan.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('V_Perkuliahan', [], true)
+ 5 APPPATH\Views\template.php(30): view('V_Perkuliahan')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\BelajarFrameworkCI\\app\\Views\\template.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('template', [], true)
+ 9 APPPATH\Controllers\Perkuliahan_C.php(19): view('template', [...])
+10 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Perkuliahan_C->index()
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Perkuliahan_C))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-11 15:14:39 --> Attempt to read property "id_perkuliahan" on array
+in APPPATH\Views\V_Perkuliahan.php on line 30.
+ 1 APPPATH\Views\V_Perkuliahan.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id_perkuliahan" on array', 'C:\\xampp\\htdocs\\BelajarFrameworkCI\\app\\Views\\V_Perkuliahan.php', 30)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\BelajarFrameworkCI\\app\\Views\\V_Perkuliahan.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('V_Perkuliahan', [], true)
+ 5 APPPATH\Views\template.php(30): view('V_Perkuliahan')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\BelajarFrameworkCI\\app\\Views\\template.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('template', [], true)
+ 9 APPPATH\Controllers\Perkuliahan_C.php(19): view('template', [...])
+10 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Perkuliahan_C->index()
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Perkuliahan_C))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-11 15:15:38 --> Cannot use object of type stdClass as array
+in APPPATH\Views\V_Perkuliahan.php on line 26.
+ 1 SYSTEMPATH\View\View.php(224): include()
+ 2 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('V_Perkuliahan', [], true)
+ 4 APPPATH\Views\template.php(30): view('V_Perkuliahan')
+ 5 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\BelajarFrameworkCI\\app\\Views\\template.php')
+ 6 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('template', [], true)
+ 8 APPPATH\Controllers\Perkuliahan_C.php(19): view('template', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Perkuliahan_C->index()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Perkuliahan_C))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-11 15:16:30 --> Undefined property: stdClass::$nama_dosen
+in APPPATH\Views\V_Perkuliahan.php on line 28.
+ 1 APPPATH\Views\V_Perkuliahan.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$nama_dosen', 'C:\\xampp\\htdocs\\BelajarFrameworkCI\\app\\Views\\V_Perkuliahan.php', 28)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\BelajarFrameworkCI\\app\\Views\\V_Perkuliahan.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('V_Perkuliahan', [], true)
+ 5 APPPATH\Views\template.php(30): view('V_Perkuliahan')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\BelajarFrameworkCI\\app\\Views\\template.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('template', [], true)
+ 9 APPPATH\Controllers\Perkuliahan_C.php(19): view('template', [...])
+10 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Perkuliahan_C->index()
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Perkuliahan_C))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-11 15:26:16 --> Undefined variable $mahasiswaData
+in APPPATH\Views\V_Perkuliahan_Add.php on line 24.
+ 1 APPPATH\Views\V_Perkuliahan_Add.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $mahasiswaData', 'C:\\xampp\\htdocs\\BelajarFrameworkCI\\app\\Views\\V_Perkuliahan_Add.php', 24)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\BelajarFrameworkCI\\app\\Views\\V_Perkuliahan_Add.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('v_perkuliahan_add', [], true)
+ 5 APPPATH\Views\template.php(30): view('v_perkuliahan_add')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\BelajarFrameworkCI\\app\\Views\\template.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('template', [], true)
+ 9 APPPATH\Controllers\Perkuliahan_C.php(43): view('template', [...])
+10 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Perkuliahan_C->add()
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Perkuliahan_C))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-11 15:27:36 --> Undefined variable $getData
+in APPPATH\Views\V_Perkuliahan_Add.php on line 24.
+ 1 APPPATH\Views\V_Perkuliahan_Add.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $getData', 'C:\\xampp\\htdocs\\BelajarFrameworkCI\\app\\Views\\V_Perkuliahan_Add.php', 24)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\BelajarFrameworkCI\\app\\Views\\V_Perkuliahan_Add.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('v_perkuliahan_add', [], true)
+ 5 APPPATH\Views\template.php(30): view('v_perkuliahan_add')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\BelajarFrameworkCI\\app\\Views\\template.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('template', [], true)
+ 9 APPPATH\Controllers\Perkuliahan_C.php(43): view('template', [...])
+10 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Perkuliahan_C->add()
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Perkuliahan_C))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-11 15:27:47 --> Undefined variable $mahasiswaData
+in APPPATH\Views\V_Perkuliahan_Add.php on line 24.
+ 1 APPPATH\Views\V_Perkuliahan_Add.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $mahasiswaData', 'C:\\xampp\\htdocs\\BelajarFrameworkCI\\app\\Views\\V_Perkuliahan_Add.php', 24)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\BelajarFrameworkCI\\app\\Views\\V_Perkuliahan_Add.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('v_perkuliahan_add', [], true)
+ 5 APPPATH\Views\template.php(30): view('v_perkuliahan_add')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\BelajarFrameworkCI\\app\\Views\\template.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('template', [], true)
+ 9 APPPATH\Controllers\Perkuliahan_C.php(43): view('template', [...])
+10 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Perkuliahan_C->add()
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Perkuliahan_C))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-11 15:29:04 --> Call to undefined method App\Models\M_PerkuliahanModel::getMahasiswaData
+in SYSTEMPATH\Model.php on line 838.
+ 1 APPPATH\Controllers\Perkuliahan_C.php(43): CodeIgniter\Model->__call('getMahasiswaData', [])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Perkuliahan_C->add()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Perkuliahan_C))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-11 15:30:26 --> Call to undefined method App\Models\M_PerkuliahanModel::getPerkuliahanWithRelation
+in SYSTEMPATH\Model.php on line 838.
+ 1 APPPATH\Controllers\Perkuliahan_C.php(43): CodeIgniter\Model->__call('getPerkuliahanWithRelation', [])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Perkuliahan_C->add()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Perkuliahan_C))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-11 15:30:55 --> Call to undefined method App\Models\M_PerkuliahanModel::getPerkuliahanWithRelation
+in SYSTEMPATH\Model.php on line 838.
+ 1 APPPATH\Controllers\Perkuliahan_C.php(43): CodeIgniter\Model->__call('getPerkuliahanWithRelation', [])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Perkuliahan_C->add()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Perkuliahan_C))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-11 15:30:59 --> Call to undefined method App\Models\M_PerkuliahanModel::getPerkuliahanWithRelation
+in SYSTEMPATH\Model.php on line 838.
+ 1 APPPATH\Controllers\Perkuliahan_C.php(43): CodeIgniter\Model->__call('getPerkuliahanWithRelation', [])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Perkuliahan_C->add()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Perkuliahan_C))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-11 15:47:01 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 883.
+ 1 SYSTEMPATH\Model.php(642): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(828): CodeIgniter\Model->builder()
+ 3 APPPATH\Models\M_PerkuliahanModel.php(60): CodeIgniter\Model->__call('select', [...])
+ 4 APPPATH\Controllers\Perkuliahan_C.php(43): App\Models\M_PerkuliahanModel->getNimMahasiswa()
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Perkuliahan_C->add()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Perkuliahan_C))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-11 15:47:12 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 883.
+ 1 SYSTEMPATH\Model.php(642): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(828): CodeIgniter\Model->builder()
+ 3 APPPATH\Models\M_PerkuliahanModel.php(60): CodeIgniter\Model->__call('select', [...])
+ 4 APPPATH\Controllers\Perkuliahan_C.php(43): App\Models\M_PerkuliahanModel->getNimMahasiswa()
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Perkuliahan_C->add()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Perkuliahan_C))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-11 15:48:33 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 883.
+ 1 SYSTEMPATH\Model.php(642): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(828): CodeIgniter\Model->builder()
+ 3 APPPATH\Models\M_PerkuliahanModel.php(60): CodeIgniter\Model->__call('select', [...])
+ 4 APPPATH\Controllers\Perkuliahan_C.php(43): App\Models\M_PerkuliahanModel->getNimMahasiswa()
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Perkuliahan_C->add()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Perkuliahan_C))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-11 15:48:37 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 883.
+ 1 SYSTEMPATH\Model.php(642): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(828): CodeIgniter\Model->builder()
+ 3 APPPATH\Models\M_PerkuliahanModel.php(60): CodeIgniter\Model->__call('select', [...])
+ 4 APPPATH\Controllers\Perkuliahan_C.php(43): App\Models\M_PerkuliahanModel->getNimMahasiswa()
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Perkuliahan_C->add()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Perkuliahan_C))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-11 16:06:20 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`akademik_db`.`perkuliahan`, CONSTRAINT `perkuliahan_ibfk_1` FOREIGN KEY (`nim`) REFERENCES `mahasiswa` (`nim`) ON UPDATE CASCADE) in C:\xampp\htdocs\BelajarFrameworkCI\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\BelajarFrameworkCI\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `pe...', 0)
+#1 C:\xampp\htdocs\BelajarFrameworkCI\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pe...')
+#2 C:\xampp\htdocs\BelajarFrameworkCI\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pe...')
+#3 C:\xampp\htdocs\BelajarFrameworkCI\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pe...', Array, false)
+#4 C:\xampp\htdocs\BelajarFrameworkCI\app\Models\M_PerkuliahanModel.php(19): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\BelajarFrameworkCI\app\Controllers\Perkuliahan_C.php(29): App\Models\M_PerkuliahanModel->insertData(Array)
+#6 C:\xampp\htdocs\BelajarFrameworkCI\system\CodeIgniter.php(932): App\Controllers\Perkuliahan_C->submit()
+#7 C:\xampp\htdocs\BelajarFrameworkCI\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Perkuliahan_C))
+#8 C:\xampp\htdocs\BelajarFrameworkCI\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\BelajarFrameworkCI\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-10-11 16:06:20 --> Cannot add or update a child row: a foreign key constraint fails (`akademik_db`.`perkuliahan`, CONSTRAINT `perkuliahan_ibfk_1` FOREIGN KEY (`nim`) REFERENCES `mahasiswa` (`nim`) ON UPDATE CASCADE)
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `perkuliahan` (`id_perkuliahan`, `nilai`) VALUES (NULL, \'A\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `perkuliahan` (`id_perkuliahan`, `nilai`) VALUES (NULL, \'A\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `perkuliahan` (`id_perkuliahan`, `nilai`) VALUES (NULL, \'A\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `perkuliahan` (`id_perkuliahan`, `nilai`) VALUES (:id_perkuliahan:, :nilai:)', [...], false)
+ 5 APPPATH\Models\M_PerkuliahanModel.php(19): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\Perkuliahan_C.php(29): App\Models\M_PerkuliahanModel->insertData([...])
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Perkuliahan_C->submit()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Perkuliahan_C))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-11 16:13:35 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`akademik_db`.`perkuliahan`, CONSTRAINT `perkuliahan_ibfk_1` FOREIGN KEY (`nim`) REFERENCES `mahasiswa` (`nim`) ON UPDATE CASCADE) in C:\xampp\htdocs\BelajarFrameworkCI\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\BelajarFrameworkCI\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `pe...', 0)
+#1 C:\xampp\htdocs\BelajarFrameworkCI\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pe...')
+#2 C:\xampp\htdocs\BelajarFrameworkCI\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pe...')
+#3 C:\xampp\htdocs\BelajarFrameworkCI\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pe...', Array, false)
+#4 C:\xampp\htdocs\BelajarFrameworkCI\app\Models\M_PerkuliahanModel.php(19): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\BelajarFrameworkCI\app\Controllers\Perkuliahan_C.php(29): App\Models\M_PerkuliahanModel->insertData(Array)
+#6 C:\xampp\htdocs\BelajarFrameworkCI\system\CodeIgniter.php(932): App\Controllers\Perkuliahan_C->submit()
+#7 C:\xampp\htdocs\BelajarFrameworkCI\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Perkuliahan_C))
+#8 C:\xampp\htdocs\BelajarFrameworkCI\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\BelajarFrameworkCI\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-10-11 16:13:35 --> Cannot add or update a child row: a foreign key constraint fails (`akademik_db`.`perkuliahan`, CONSTRAINT `perkuliahan_ibfk_1` FOREIGN KEY (`nim`) REFERENCES `mahasiswa` (`nim`) ON UPDATE CASCADE)
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `perkuliahan` (`id_perkuliahan`, `nilai`) VALUES (NULL, \'A\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `perkuliahan` (`id_perkuliahan`, `nilai`) VALUES (NULL, \'A\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `perkuliahan` (`id_perkuliahan`, `nilai`) VALUES (NULL, \'A\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `perkuliahan` (`id_perkuliahan`, `nilai`) VALUES (:id_perkuliahan:, :nilai:)', [...], false)
+ 5 APPPATH\Models\M_PerkuliahanModel.php(19): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\Perkuliahan_C.php(29): App\Models\M_PerkuliahanModel->insertData([...])
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Perkuliahan_C->submit()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Perkuliahan_C))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-11 16:21:28 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`akademik_db`.`perkuliahan`, CONSTRAINT `perkuliahan_ibfk_1` FOREIGN KEY (`nim`) REFERENCES `mahasiswa` (`nim`) ON UPDATE CASCADE) in C:\xampp\htdocs\BelajarFrameworkCI\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\BelajarFrameworkCI\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `pe...', 0)
+#1 C:\xampp\htdocs\BelajarFrameworkCI\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pe...')
+#2 C:\xampp\htdocs\BelajarFrameworkCI\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pe...')
+#3 C:\xampp\htdocs\BelajarFrameworkCI\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pe...', Array, false)
+#4 C:\xampp\htdocs\BelajarFrameworkCI\app\Models\M_PerkuliahanModel.php(19): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\BelajarFrameworkCI\app\Controllers\Perkuliahan_C.php(29): App\Models\M_PerkuliahanModel->insertData(Array)
+#6 C:\xampp\htdocs\BelajarFrameworkCI\system\CodeIgniter.php(932): App\Controllers\Perkuliahan_C->submit()
+#7 C:\xampp\htdocs\BelajarFrameworkCI\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Perkuliahan_C))
+#8 C:\xampp\htdocs\BelajarFrameworkCI\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\BelajarFrameworkCI\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-10-11 16:21:28 --> Cannot add or update a child row: a foreign key constraint fails (`akademik_db`.`perkuliahan`, CONSTRAINT `perkuliahan_ibfk_1` FOREIGN KEY (`nim`) REFERENCES `mahasiswa` (`nim`) ON UPDATE CASCADE)
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `perkuliahan` (`id_perkuliahan`, `nilai`) VALUES (NULL, \'A\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `perkuliahan` (`id_perkuliahan`, `nilai`) VALUES (NULL, \'A\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `perkuliahan` (`id_perkuliahan`, `nilai`) VALUES (NULL, \'A\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `perkuliahan` (`id_perkuliahan`, `nilai`) VALUES (:id_perkuliahan:, :nilai:)', [...], false)
+ 5 APPPATH\Models\M_PerkuliahanModel.php(19): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\Perkuliahan_C.php(29): App\Models\M_PerkuliahanModel->insertData([...])
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Perkuliahan_C->submit()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Perkuliahan_C))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-11 16:22:23 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`akademik_db`.`perkuliahan`, CONSTRAINT `perkuliahan_ibfk_1` FOREIGN KEY (`nim`) REFERENCES `mahasiswa` (`nim`) ON UPDATE CASCADE) in C:\xampp\htdocs\BelajarFrameworkCI\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\BelajarFrameworkCI\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `pe...', 0)
+#1 C:\xampp\htdocs\BelajarFrameworkCI\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pe...')
+#2 C:\xampp\htdocs\BelajarFrameworkCI\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pe...')
+#3 C:\xampp\htdocs\BelajarFrameworkCI\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pe...', Array, false)
+#4 C:\xampp\htdocs\BelajarFrameworkCI\app\Models\M_PerkuliahanModel.php(19): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\BelajarFrameworkCI\app\Controllers\Perkuliahan_C.php(29): App\Models\M_PerkuliahanModel->insertData(Array)
+#6 C:\xampp\htdocs\BelajarFrameworkCI\system\CodeIgniter.php(932): App\Controllers\Perkuliahan_C->submit()
+#7 C:\xampp\htdocs\BelajarFrameworkCI\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Perkuliahan_C))
+#8 C:\xampp\htdocs\BelajarFrameworkCI\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\BelajarFrameworkCI\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-10-11 16:22:23 --> Cannot add or update a child row: a foreign key constraint fails (`akademik_db`.`perkuliahan`, CONSTRAINT `perkuliahan_ibfk_1` FOREIGN KEY (`nim`) REFERENCES `mahasiswa` (`nim`) ON UPDATE CASCADE)
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `perkuliahan` (`id_perkuliahan`, `nilai`) VALUES (NULL, \'A\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `perkuliahan` (`id_perkuliahan`, `nilai`) VALUES (NULL, \'A\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `perkuliahan` (`id_perkuliahan`, `nilai`) VALUES (NULL, \'A\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `perkuliahan` (`id_perkuliahan`, `nilai`) VALUES (:id_perkuliahan:, :nilai:)', [...], false)
+ 5 APPPATH\Models\M_PerkuliahanModel.php(19): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\Perkuliahan_C.php(29): App\Models\M_PerkuliahanModel->insertData([...])
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Perkuliahan_C->submit()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Perkuliahan_C))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-11 16:23:12 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`akademik_db`.`perkuliahan`, CONSTRAINT `perkuliahan_ibfk_1` FOREIGN KEY (`nim`) REFERENCES `mahasiswa` (`nim`) ON UPDATE CASCADE) in C:\xampp\htdocs\BelajarFrameworkCI\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\BelajarFrameworkCI\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `pe...', 0)
+#1 C:\xampp\htdocs\BelajarFrameworkCI\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pe...')
+#2 C:\xampp\htdocs\BelajarFrameworkCI\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pe...')
+#3 C:\xampp\htdocs\BelajarFrameworkCI\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pe...', Array, false)
+#4 C:\xampp\htdocs\BelajarFrameworkCI\app\Models\M_PerkuliahanModel.php(19): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\BelajarFrameworkCI\app\Controllers\Perkuliahan_C.php(29): App\Models\M_PerkuliahanModel->insertData(Array)
+#6 C:\xampp\htdocs\BelajarFrameworkCI\system\CodeIgniter.php(932): App\Controllers\Perkuliahan_C->submit()
+#7 C:\xampp\htdocs\BelajarFrameworkCI\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Perkuliahan_C))
+#8 C:\xampp\htdocs\BelajarFrameworkCI\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\BelajarFrameworkCI\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-10-11 16:23:12 --> Cannot add or update a child row: a foreign key constraint fails (`akademik_db`.`perkuliahan`, CONSTRAINT `perkuliahan_ibfk_1` FOREIGN KEY (`nim`) REFERENCES `mahasiswa` (`nim`) ON UPDATE CASCADE)
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `perkuliahan` (`id_perkuliahan`, `nilai`) VALUES (NULL, \'A\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `perkuliahan` (`id_perkuliahan`, `nilai`) VALUES (NULL, \'A\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `perkuliahan` (`id_perkuliahan`, `nilai`) VALUES (NULL, \'A\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `perkuliahan` (`id_perkuliahan`, `nilai`) VALUES (:id_perkuliahan:, :nilai:)', [...], false)
+ 5 APPPATH\Models\M_PerkuliahanModel.php(19): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\Perkuliahan_C.php(29): App\Models\M_PerkuliahanModel->insertData([...])
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Perkuliahan_C->submit()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Perkuliahan_C))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-11 16:41:28 --> Attempt to read property "kode_mk" on null
+in APPPATH\Views\V_Mata_Kuliah_Edit.php on line 22.
+ 1 APPPATH\Views\V_Mata_Kuliah_Edit.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "kode_mk" on null', 'C:\\xampp\\htdocs\\BelajarFrameworkCI\\app\\Views\\V_Mata_Kuliah_Edit.php', 22)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\BelajarFrameworkCI\\app\\Views\\V_Mata_Kuliah_Edit.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('v_mata_kuliah_edit', [], true)
+ 5 APPPATH\Views\template.php(30): view('v_mata_kuliah_edit')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\BelajarFrameworkCI\\app\\Views\\template.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('template', [], true)
+ 9 APPPATH\Controllers\Mata_Kuliah_C.php(56): view('template', [...])
+10 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Mata_Kuliah_C->edit('5')
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mata_Kuliah_C))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-11 16:44:13 --> Attempt to read property "kode_mk" on null
+in APPPATH\Views\V_Mata_Kuliah_Edit.php on line 22.
+ 1 APPPATH\Views\V_Mata_Kuliah_Edit.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "kode_mk" on null', 'C:\\xampp\\htdocs\\BelajarFrameworkCI\\app\\Views\\V_Mata_Kuliah_Edit.php', 22)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\BelajarFrameworkCI\\app\\Views\\V_Mata_Kuliah_Edit.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('v_mata_kuliah_edit', [], true)
+ 5 APPPATH\Views\template.php(30): view('v_mata_kuliah_edit')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\BelajarFrameworkCI\\app\\Views\\template.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('template', [], true)
+ 9 APPPATH\Controllers\Mata_Kuliah_C.php(56): view('template', [...])
+10 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Mata_Kuliah_C->edit('5')
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mata_Kuliah_C))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-11 16:45:36 --> Attempt to read property "kode_mk" on null
+in APPPATH\Views\V_Mata_Kuliah_Edit.php on line 22.
+ 1 APPPATH\Views\V_Mata_Kuliah_Edit.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "kode_mk" on null', 'C:\\xampp\\htdocs\\BelajarFrameworkCI\\app\\Views\\V_Mata_Kuliah_Edit.php', 22)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\BelajarFrameworkCI\\app\\Views\\V_Mata_Kuliah_Edit.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('v_mata_kuliah_edit', [], true)
+ 5 APPPATH\Views\template.php(30): view('v_mata_kuliah_edit')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\BelajarFrameworkCI\\app\\Views\\template.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('template', [], true)
+ 9 APPPATH\Controllers\Mata_Kuliah_C.php(56): view('template', [...])
+10 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Mata_Kuliah_C->edit('5')
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mata_Kuliah_C))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-11 16:45:38 --> Attempt to read property "kode_mk" on null
+in APPPATH\Views\V_Mata_Kuliah_Edit.php on line 22.
+ 1 APPPATH\Views\V_Mata_Kuliah_Edit.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "kode_mk" on null', 'C:\\xampp\\htdocs\\BelajarFrameworkCI\\app\\Views\\V_Mata_Kuliah_Edit.php', 22)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\BelajarFrameworkCI\\app\\Views\\V_Mata_Kuliah_Edit.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('v_mata_kuliah_edit', [], true)
+ 5 APPPATH\Views\template.php(30): view('v_mata_kuliah_edit')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\BelajarFrameworkCI\\app\\Views\\template.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('template', [], true)
+ 9 APPPATH\Controllers\Mata_Kuliah_C.php(56): view('template', [...])
+10 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Mata_Kuliah_C->edit('5')
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mata_Kuliah_C))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-11 16:46:19 --> Attempt to read property "kode_mk" on null
+in APPPATH\Views\V_Mata_Kuliah_Edit.php on line 22.
+ 1 APPPATH\Views\V_Mata_Kuliah_Edit.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "kode_mk" on null', 'C:\\xampp\\htdocs\\BelajarFrameworkCI\\app\\Views\\V_Mata_Kuliah_Edit.php', 22)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\BelajarFrameworkCI\\app\\Views\\V_Mata_Kuliah_Edit.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('v_mata_kuliah_edit', [], true)
+ 5 APPPATH\Views\template.php(30): view('v_mata_kuliah_edit')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\BelajarFrameworkCI\\app\\Views\\template.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('template', [], true)
+ 9 APPPATH\Controllers\Mata_Kuliah_C.php(56): view('template', [...])
+10 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Mata_Kuliah_C->edit('5')
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mata_Kuliah_C))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-11 16:52:47 --> Attempt to read property "kode_mk" on null
+in APPPATH\Views\V_Mata_Kuliah_Edit.php on line 22.
+ 1 APPPATH\Views\V_Mata_Kuliah_Edit.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "kode_mk" on null', 'C:\\xampp\\htdocs\\BelajarFrameworkCI\\app\\Views\\V_Mata_Kuliah_Edit.php', 22)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\BelajarFrameworkCI\\app\\Views\\V_Mata_Kuliah_Edit.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('v_mata_kuliah_edit', [], true)
+ 5 APPPATH\Views\template.php(30): view('v_mata_kuliah_edit')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\BelajarFrameworkCI\\app\\Views\\template.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('template', [], true)
+ 9 APPPATH\Controllers\Mata_Kuliah_C.php(56): view('template', [...])
+10 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Mata_Kuliah_C->edit('5')
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mata_Kuliah_C))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-11 16:52:50 --> Attempt to read property "kode_mk" on null
+in APPPATH\Views\V_Mata_Kuliah_Edit.php on line 22.
+ 1 APPPATH\Views\V_Mata_Kuliah_Edit.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "kode_mk" on null', 'C:\\xampp\\htdocs\\BelajarFrameworkCI\\app\\Views\\V_Mata_Kuliah_Edit.php', 22)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\BelajarFrameworkCI\\app\\Views\\V_Mata_Kuliah_Edit.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('v_mata_kuliah_edit', [], true)
+ 5 APPPATH\Views\template.php(30): view('v_mata_kuliah_edit')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\BelajarFrameworkCI\\app\\Views\\template.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('template', [], true)
+ 9 APPPATH\Controllers\Mata_Kuliah_C.php(56): view('template', [...])
+10 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Mata_Kuliah_C->edit('5')
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mata_Kuliah_C))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-11 16:54:40 --> mysqli_sql_exception: Unknown column 'nama_dosen' in 'field list' in C:\xampp\htdocs\BelajarFrameworkCI\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\BelajarFrameworkCI\system\Database\MySQLi\Connection.php(295): mysqli->query('UPDATE `perkuli...', 0)
+#1 C:\xampp\htdocs\BelajarFrameworkCI\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `perkuli...')
+#2 C:\xampp\htdocs\BelajarFrameworkCI\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `perkuli...')
+#3 C:\xampp\htdocs\BelajarFrameworkCI\system\Database\BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE `perkuli...', Array, false)
+#4 C:\xampp\htdocs\BelajarFrameworkCI\app\Models\M_PerkuliahanModel.php(33): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 C:\xampp\htdocs\BelajarFrameworkCI\app\Controllers\Perkuliahan_C.php(81): App\Models\M_PerkuliahanModel->updateData('5', Array)
+#6 C:\xampp\htdocs\BelajarFrameworkCI\system\CodeIgniter.php(932): App\Controllers\Perkuliahan_C->update()
+#7 C:\xampp\htdocs\BelajarFrameworkCI\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Perkuliahan_C))
+#8 C:\xampp\htdocs\BelajarFrameworkCI\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\BelajarFrameworkCI\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-10-11 16:54:40 --> Unknown column 'nama_dosen' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('UPDATE `perkuliahan` SET `id_perkuliahan` = \'5\', `nama_dosen` = NULL
+WHERE `id_perkuliahan` = \'5\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `perkuliahan` SET `id_perkuliahan` = \'5\', `nama_dosen` = NULL
+WHERE `id_perkuliahan` = \'5\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `perkuliahan` SET `id_perkuliahan` = \'5\', `nama_dosen` = NULL
+WHERE `id_perkuliahan` = \'5\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE `perkuliahan` SET `id_perkuliahan` = :id_perkuliahan.1:, `nama_dosen` = :nama_dosen:
+WHERE `id_perkuliahan` = :id_perkuliahan:', [...], false)
+ 5 APPPATH\Models\M_PerkuliahanModel.php(33): CodeIgniter\Database\BaseBuilder->update([...])
+ 6 APPPATH\Controllers\Perkuliahan_C.php(81): App\Models\M_PerkuliahanModel->updateData('5', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Perkuliahan_C->update()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Perkuliahan_C))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-11 16:54:51 --> mysqli_sql_exception: Unknown column 'nama_dosen' in 'field list' in C:\xampp\htdocs\BelajarFrameworkCI\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\BelajarFrameworkCI\system\Database\MySQLi\Connection.php(295): mysqli->query('UPDATE `perkuli...', 0)
+#1 C:\xampp\htdocs\BelajarFrameworkCI\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `perkuli...')
+#2 C:\xampp\htdocs\BelajarFrameworkCI\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `perkuli...')
+#3 C:\xampp\htdocs\BelajarFrameworkCI\system\Database\BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE `perkuli...', Array, false)
+#4 C:\xampp\htdocs\BelajarFrameworkCI\app\Models\M_PerkuliahanModel.php(33): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 C:\xampp\htdocs\BelajarFrameworkCI\app\Controllers\Perkuliahan_C.php(81): App\Models\M_PerkuliahanModel->updateData('5', Array)
+#6 C:\xampp\htdocs\BelajarFrameworkCI\system\CodeIgniter.php(932): App\Controllers\Perkuliahan_C->update()
+#7 C:\xampp\htdocs\BelajarFrameworkCI\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Perkuliahan_C))
+#8 C:\xampp\htdocs\BelajarFrameworkCI\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\BelajarFrameworkCI\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-10-11 16:54:51 --> Unknown column 'nama_dosen' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('UPDATE `perkuliahan` SET `id_perkuliahan` = \'5\', `nama_dosen` = NULL
+WHERE `id_perkuliahan` = \'5\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `perkuliahan` SET `id_perkuliahan` = \'5\', `nama_dosen` = NULL
+WHERE `id_perkuliahan` = \'5\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `perkuliahan` SET `id_perkuliahan` = \'5\', `nama_dosen` = NULL
+WHERE `id_perkuliahan` = \'5\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE `perkuliahan` SET `id_perkuliahan` = :id_perkuliahan.1:, `nama_dosen` = :nama_dosen:
+WHERE `id_perkuliahan` = :id_perkuliahan:', [...], false)
+ 5 APPPATH\Models\M_PerkuliahanModel.php(33): CodeIgniter\Database\BaseBuilder->update([...])
+ 6 APPPATH\Controllers\Perkuliahan_C.php(81): App\Models\M_PerkuliahanModel->updateData('5', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Perkuliahan_C->update()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Perkuliahan_C))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-11 16:58:29 --> mysqli_sql_exception: Unknown column 'nama_dosen' in 'field list' in C:\xampp\htdocs\BelajarFrameworkCI\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\BelajarFrameworkCI\system\Database\MySQLi\Connection.php(295): mysqli->query('UPDATE `perkuli...', 0)
+#1 C:\xampp\htdocs\BelajarFrameworkCI\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `perkuli...')
+#2 C:\xampp\htdocs\BelajarFrameworkCI\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `perkuli...')
+#3 C:\xampp\htdocs\BelajarFrameworkCI\system\Database\BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE `perkuli...', Array, false)
+#4 C:\xampp\htdocs\BelajarFrameworkCI\app\Models\M_PerkuliahanModel.php(33): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 C:\xampp\htdocs\BelajarFrameworkCI\app\Controllers\Perkuliahan_C.php(81): App\Models\M_PerkuliahanModel->updateData('5', Array)
+#6 C:\xampp\htdocs\BelajarFrameworkCI\system\CodeIgniter.php(932): App\Controllers\Perkuliahan_C->update()
+#7 C:\xampp\htdocs\BelajarFrameworkCI\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Perkuliahan_C))
+#8 C:\xampp\htdocs\BelajarFrameworkCI\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\BelajarFrameworkCI\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-10-11 16:58:29 --> Unknown column 'nama_dosen' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('UPDATE `perkuliahan` SET `id_perkuliahan` = \'5\', `nama_dosen` = NULL
+WHERE `id_perkuliahan` = \'5\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `perkuliahan` SET `id_perkuliahan` = \'5\', `nama_dosen` = NULL
+WHERE `id_perkuliahan` = \'5\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `perkuliahan` SET `id_perkuliahan` = \'5\', `nama_dosen` = NULL
+WHERE `id_perkuliahan` = \'5\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE `perkuliahan` SET `id_perkuliahan` = :id_perkuliahan.1:, `nama_dosen` = :nama_dosen:
+WHERE `id_perkuliahan` = :id_perkuliahan:', [...], false)
+ 5 APPPATH\Models\M_PerkuliahanModel.php(33): CodeIgniter\Database\BaseBuilder->update([...])
+ 6 APPPATH\Controllers\Perkuliahan_C.php(81): App\Models\M_PerkuliahanModel->updateData('5', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Perkuliahan_C->update()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Perkuliahan_C))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-11 16:58:49 --> mysqli_sql_exception: Unknown column 'nama_dosen' in 'field list' in C:\xampp\htdocs\BelajarFrameworkCI\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\BelajarFrameworkCI\system\Database\MySQLi\Connection.php(295): mysqli->query('UPDATE `perkuli...', 0)
+#1 C:\xampp\htdocs\BelajarFrameworkCI\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `perkuli...')
+#2 C:\xampp\htdocs\BelajarFrameworkCI\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `perkuli...')
+#3 C:\xampp\htdocs\BelajarFrameworkCI\system\Database\BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE `perkuli...', Array, false)
+#4 C:\xampp\htdocs\BelajarFrameworkCI\app\Models\M_PerkuliahanModel.php(33): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 C:\xampp\htdocs\BelajarFrameworkCI\app\Controllers\Perkuliahan_C.php(81): App\Models\M_PerkuliahanModel->updateData('9', Array)
+#6 C:\xampp\htdocs\BelajarFrameworkCI\system\CodeIgniter.php(932): App\Controllers\Perkuliahan_C->update()
+#7 C:\xampp\htdocs\BelajarFrameworkCI\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Perkuliahan_C))
+#8 C:\xampp\htdocs\BelajarFrameworkCI\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\BelajarFrameworkCI\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-10-11 16:58:49 --> Unknown column 'nama_dosen' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('UPDATE `perkuliahan` SET `id_perkuliahan` = \'9\', `nama_dosen` = NULL
+WHERE `id_perkuliahan` = \'9\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `perkuliahan` SET `id_perkuliahan` = \'9\', `nama_dosen` = NULL
+WHERE `id_perkuliahan` = \'9\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `perkuliahan` SET `id_perkuliahan` = \'9\', `nama_dosen` = NULL
+WHERE `id_perkuliahan` = \'9\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE `perkuliahan` SET `id_perkuliahan` = :id_perkuliahan.1:, `nama_dosen` = :nama_dosen:
+WHERE `id_perkuliahan` = :id_perkuliahan:', [...], false)
+ 5 APPPATH\Models\M_PerkuliahanModel.php(33): CodeIgniter\Database\BaseBuilder->update([...])
+ 6 APPPATH\Controllers\Perkuliahan_C.php(81): App\Models\M_PerkuliahanModel->updateData('9', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Perkuliahan_C->update()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Perkuliahan_C))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-11 17:02:41 --> mysqli_sql_exception: Unknown column 'nama_dosen' in 'field list' in C:\xampp\htdocs\BelajarFrameworkCI\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\BelajarFrameworkCI\system\Database\MySQLi\Connection.php(295): mysqli->query('UPDATE `perkuli...', 0)
+#1 C:\xampp\htdocs\BelajarFrameworkCI\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `perkuli...')
+#2 C:\xampp\htdocs\BelajarFrameworkCI\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `perkuli...')
+#3 C:\xampp\htdocs\BelajarFrameworkCI\system\Database\BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE `perkuli...', Array, false)
+#4 C:\xampp\htdocs\BelajarFrameworkCI\app\Models\M_PerkuliahanModel.php(33): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 C:\xampp\htdocs\BelajarFrameworkCI\app\Controllers\Perkuliahan_C.php(81): App\Models\M_PerkuliahanModel->updateData('10', Array)
+#6 C:\xampp\htdocs\BelajarFrameworkCI\system\CodeIgniter.php(932): App\Controllers\Perkuliahan_C->update()
+#7 C:\xampp\htdocs\BelajarFrameworkCI\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Perkuliahan_C))
+#8 C:\xampp\htdocs\BelajarFrameworkCI\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\BelajarFrameworkCI\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-10-11 17:02:41 --> Unknown column 'nama_dosen' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('UPDATE `perkuliahan` SET `id_perkuliahan` = \'10\', `nama_dosen` = NULL
+WHERE `id_perkuliahan` = \'10\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `perkuliahan` SET `id_perkuliahan` = \'10\', `nama_dosen` = NULL
+WHERE `id_perkuliahan` = \'10\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `perkuliahan` SET `id_perkuliahan` = \'10\', `nama_dosen` = NULL
+WHERE `id_perkuliahan` = \'10\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE `perkuliahan` SET `id_perkuliahan` = :id_perkuliahan.1:, `nama_dosen` = :nama_dosen:
+WHERE `id_perkuliahan` = :id_perkuliahan:', [...], false)
+ 5 APPPATH\Models\M_PerkuliahanModel.php(33): CodeIgniter\Database\BaseBuilder->update([...])
+ 6 APPPATH\Controllers\Perkuliahan_C.php(81): App\Models\M_PerkuliahanModel->updateData('10', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Perkuliahan_C->update()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Perkuliahan_C))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-11 18:44:21 --> mysqli_sql_exception: Unknown column 'nama_dosen' in 'field list' in C:\xampp\htdocs\BelajarFrameworkCI\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\BelajarFrameworkCI\system\Database\MySQLi\Connection.php(295): mysqli->query('UPDATE `perkuli...', 0)
+#1 C:\xampp\htdocs\BelajarFrameworkCI\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `perkuli...')
+#2 C:\xampp\htdocs\BelajarFrameworkCI\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `perkuli...')
+#3 C:\xampp\htdocs\BelajarFrameworkCI\system\Database\BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE `perkuli...', Array, false)
+#4 C:\xampp\htdocs\BelajarFrameworkCI\app\Models\M_PerkuliahanModel.php(33): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 C:\xampp\htdocs\BelajarFrameworkCI\app\Controllers\Perkuliahan_C.php(81): App\Models\M_PerkuliahanModel->updateData('5', Array)
+#6 C:\xampp\htdocs\BelajarFrameworkCI\system\CodeIgniter.php(932): App\Controllers\Perkuliahan_C->update()
+#7 C:\xampp\htdocs\BelajarFrameworkCI\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Perkuliahan_C))
+#8 C:\xampp\htdocs\BelajarFrameworkCI\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\BelajarFrameworkCI\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-10-11 18:44:21 --> Unknown column 'nama_dosen' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('UPDATE `perkuliahan` SET `id_perkuliahan` = \'5\', `nama_dosen` = NULL
+WHERE `id_perkuliahan` = \'5\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `perkuliahan` SET `id_perkuliahan` = \'5\', `nama_dosen` = NULL
+WHERE `id_perkuliahan` = \'5\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `perkuliahan` SET `id_perkuliahan` = \'5\', `nama_dosen` = NULL
+WHERE `id_perkuliahan` = \'5\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE `perkuliahan` SET `id_perkuliahan` = :id_perkuliahan.1:, `nama_dosen` = :nama_dosen:
+WHERE `id_perkuliahan` = :id_perkuliahan:', [...], false)
+ 5 APPPATH\Models\M_PerkuliahanModel.php(33): CodeIgniter\Database\BaseBuilder->update([...])
+ 6 APPPATH\Controllers\Perkuliahan_C.php(81): App\Models\M_PerkuliahanModel->updateData('5', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Perkuliahan_C->update()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Perkuliahan_C))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-11 19:02:23 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`akademik_db`.`perkuliahan`, CONSTRAINT `perkuliahan_ibfk_1` FOREIGN KEY (`nim`) REFERENCES `mahasiswa` (`nim`) ON UPDATE CASCADE) in C:\xampp\htdocs\BelajarFrameworkCI\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\BelajarFrameworkCI\system\Database\MySQLi\Connection.php(295): mysqli->query('DELETE FROM `ma...', 0)
+#1 C:\xampp\htdocs\BelajarFrameworkCI\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `ma...')
+#2 C:\xampp\htdocs\BelajarFrameworkCI\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `ma...')
+#3 C:\xampp\htdocs\BelajarFrameworkCI\system\Database\BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query('DELETE FROM `ma...', Array, false)
+#4 C:\xampp\htdocs\BelajarFrameworkCI\app\Models\M_MahasiswaModel.php(36): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\xampp\htdocs\BelajarFrameworkCI\app\Controllers\Mahasiswa_C.php(89): App\Models\M_MahasiswaModel->deleteData('2111016120011')
+#6 C:\xampp\htdocs\BelajarFrameworkCI\system\CodeIgniter.php(932): App\Controllers\Mahasiswa_C->delete('2111016120011')
+#7 C:\xampp\htdocs\BelajarFrameworkCI\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa_C))
+#8 C:\xampp\htdocs\BelajarFrameworkCI\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\BelajarFrameworkCI\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-10-11 19:02:23 --> Cannot delete or update a parent row: a foreign key constraint fails (`akademik_db`.`perkuliahan`, CONSTRAINT `perkuliahan_ibfk_1` FOREIGN KEY (`nim`) REFERENCES `mahasiswa` (`nim`) ON UPDATE CASCADE)
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('DELETE FROM `mahasiswa`
+WHERE `nim` = \'2111016120011\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `mahasiswa`
+WHERE `nim` = \'2111016120011\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `mahasiswa`
+WHERE `nim` = \'2111016120011\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query('DELETE FROM `mahasiswa`
+WHERE `nim` = :nim:', [...], false)
+ 5 APPPATH\Models\M_MahasiswaModel.php(36): CodeIgniter\Database\BaseBuilder->delete()
+ 6 APPPATH\Controllers\Mahasiswa_C.php(89): App\Models\M_MahasiswaModel->deleteData('2111016120011')
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Mahasiswa_C->delete('2111016120011')
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa_C))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-11 19:03:06 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`akademik_db`.`perkuliahan`, CONSTRAINT `perkuliahan_ibfk_1` FOREIGN KEY (`nim`) REFERENCES `mahasiswa` (`nim`) ON UPDATE CASCADE) in C:\xampp\htdocs\BelajarFrameworkCI\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\BelajarFrameworkCI\system\Database\MySQLi\Connection.php(295): mysqli->query('DELETE FROM `ma...', 0)
+#1 C:\xampp\htdocs\BelajarFrameworkCI\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `ma...')
+#2 C:\xampp\htdocs\BelajarFrameworkCI\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `ma...')
+#3 C:\xampp\htdocs\BelajarFrameworkCI\system\Database\BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query('DELETE FROM `ma...', Array, false)
+#4 C:\xampp\htdocs\BelajarFrameworkCI\app\Models\M_MahasiswaModel.php(36): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\xampp\htdocs\BelajarFrameworkCI\app\Controllers\Mahasiswa_C.php(89): App\Models\M_MahasiswaModel->deleteData('2111016120011')
+#6 C:\xampp\htdocs\BelajarFrameworkCI\system\CodeIgniter.php(932): App\Controllers\Mahasiswa_C->delete('2111016120011')
+#7 C:\xampp\htdocs\BelajarFrameworkCI\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa_C))
+#8 C:\xampp\htdocs\BelajarFrameworkCI\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\BelajarFrameworkCI\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-10-11 19:03:06 --> Cannot delete or update a parent row: a foreign key constraint fails (`akademik_db`.`perkuliahan`, CONSTRAINT `perkuliahan_ibfk_1` FOREIGN KEY (`nim`) REFERENCES `mahasiswa` (`nim`) ON UPDATE CASCADE)
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('DELETE FROM `mahasiswa`
+WHERE `nim` = \'2111016120011\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `mahasiswa`
+WHERE `nim` = \'2111016120011\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `mahasiswa`
+WHERE `nim` = \'2111016120011\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query('DELETE FROM `mahasiswa`
+WHERE `nim` = :nim:', [...], false)
+ 5 APPPATH\Models\M_MahasiswaModel.php(36): CodeIgniter\Database\BaseBuilder->delete()
+ 6 APPPATH\Controllers\Mahasiswa_C.php(89): App\Models\M_MahasiswaModel->deleteData('2111016120011')
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Mahasiswa_C->delete('2111016120011')
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa_C))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-11 19:03:11 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`akademik_db`.`perkuliahan`, CONSTRAINT `perkuliahan_ibfk_1` FOREIGN KEY (`nim`) REFERENCES `mahasiswa` (`nim`) ON UPDATE CASCADE) in C:\xampp\htdocs\BelajarFrameworkCI\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\BelajarFrameworkCI\system\Database\MySQLi\Connection.php(295): mysqli->query('DELETE FROM `ma...', 0)
+#1 C:\xampp\htdocs\BelajarFrameworkCI\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `ma...')
+#2 C:\xampp\htdocs\BelajarFrameworkCI\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `ma...')
+#3 C:\xampp\htdocs\BelajarFrameworkCI\system\Database\BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query('DELETE FROM `ma...', Array, false)
+#4 C:\xampp\htdocs\BelajarFrameworkCI\app\Models\M_MahasiswaModel.php(36): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\xampp\htdocs\BelajarFrameworkCI\app\Controllers\Mahasiswa_C.php(89): App\Models\M_MahasiswaModel->deleteData('2111016110007')
+#6 C:\xampp\htdocs\BelajarFrameworkCI\system\CodeIgniter.php(932): App\Controllers\Mahasiswa_C->delete('2111016110007')
+#7 C:\xampp\htdocs\BelajarFrameworkCI\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa_C))
+#8 C:\xampp\htdocs\BelajarFrameworkCI\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\BelajarFrameworkCI\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-10-11 19:03:11 --> Cannot delete or update a parent row: a foreign key constraint fails (`akademik_db`.`perkuliahan`, CONSTRAINT `perkuliahan_ibfk_1` FOREIGN KEY (`nim`) REFERENCES `mahasiswa` (`nim`) ON UPDATE CASCADE)
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('DELETE FROM `mahasiswa`
+WHERE `nim` = \'2111016110007\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `mahasiswa`
+WHERE `nim` = \'2111016110007\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `mahasiswa`
+WHERE `nim` = \'2111016110007\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query('DELETE FROM `mahasiswa`
+WHERE `nim` = :nim:', [...], false)
+ 5 APPPATH\Models\M_MahasiswaModel.php(36): CodeIgniter\Database\BaseBuilder->delete()
+ 6 APPPATH\Controllers\Mahasiswa_C.php(89): App\Models\M_MahasiswaModel->deleteData('2111016110007')
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Mahasiswa_C->delete('2111016110007')
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa_C))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

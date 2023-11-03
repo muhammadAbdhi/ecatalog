@@ -1,0 +1,8 @@
+CRITICAL - 2023-09-15 01:21:20 --> Undefined array key 2023
+in APPPATH\Helpers\tanggal_helper.php on line 21.
+ 1 APPPATH\Helpers\tanggal_helper.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 2023', 'C:\\xampp\\htdocs\\BelajarFrameworkCI\\app\\Helpers\\tanggal_helper.php', 21)
+ 2 APPPATH\Controllers\BelajarHelper.php(24): tanggal('09-2023-15')
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\BelajarHelper->konversiTanggal()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BelajarHelper))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

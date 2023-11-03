@@ -1,0 +1,16 @@
+CRITICAL - 2023-09-14 17:33:50 --> Undefined array key 0
+in APPPATH\Helpers\tanggal_helper.php on line 20.
+ 1 APPPATH\Helpers\tanggal_helper.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp\\htdocs\\BelajarFrameworkCI\\app\\Helpers\\tanggal_helper.php', 20)
+ 2 APPPATH\Controllers\C_BelajarHelper.php(16): tanggal('2023-09-14')
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\C_BelajarHelper->konversiTanggal()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_BelajarHelper))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-14 17:34:19 --> Undefined array key 0
+in APPPATH\Helpers\tanggal_helper.php on line 20.
+ 1 APPPATH\Helpers\tanggal_helper.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp\\htdocs\\BelajarFrameworkCI\\app\\Helpers\\tanggal_helper.php', 20)
+ 2 APPPATH\Controllers\C_BelajarHelper.php(16): tanggal('2023-09-14')
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\C_BelajarHelper->konversiTanggal()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_BelajarHelper))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

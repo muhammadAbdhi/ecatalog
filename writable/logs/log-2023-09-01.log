@@ -1,0 +1,96 @@
+CRITICAL - 2023-09-01 01:36:20 --> Class "Codeigniter\Model" not found
+in APPPATH\Models\BelajarModel.php on line 5.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(314): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\BelajarFrameworkCI\\app\\Models\\BelajarModel.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\BelajarModel')
+ 4 APPPATH\Controllers\Belajar.php(32): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\BelajarModel')
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Belajar->kalkulator()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Belajar))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-01 01:38:03 --> Class "Codeigniter\Model" not found
+in APPPATH\Models\BelajarModel.php on line 5.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(314): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\BelajarFrameworkCI\\app\\Models\\BelajarModel.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\BelajarModel')
+ 4 APPPATH\Controllers\Belajar.php(32): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\BelajarModel')
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Belajar->kalkulator()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Belajar))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-01 01:39:02 --> Class "Codeigniter\Model" not found
+in APPPATH\Models\BelajarModel.php on line 5.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(314): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\BelajarFrameworkCI\\app\\Models\\BelajarModel.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\BelajarModel')
+ 4 APPPATH\Controllers\Belajar.php(32): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\BelajarModel')
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Belajar->kalkulator()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Belajar))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-01 01:41:10 --> Class "Codeigniter\Model" not found
+in APPPATH\Models\BelajarModel.php on line 5.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(314): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\BelajarFrameworkCI\\app\\Models\\BelajarModel.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\BelajarModel')
+ 4 APPPATH\Controllers\Belajar.php(32): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\BelajarModel')
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Belajar->kalkulator()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Belajar))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-01 02:02:48 --> Undefined variable $data
+in APPPATH\Views\V_Mahasiswa.php on line 15.
+ 1 APPPATH\Views\V_Mahasiswa.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\BelajarFrameworkCI\\app\\Views\\V_Mahasiswa.php', 15)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\BelajarFrameworkCI\\app\\Views\\V_Mahasiswa.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('V_Mahasiswa', [], true)
+ 5 APPPATH\Controllers\C_Mahasiswa.php(14): view('V_Mahasiswa', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\C_Mahasiswa->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Mahasiswa))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\BelajarFrameworkCI\\public\\index.php')
+CRITICAL - 2023-09-01 02:07:43 --> Undefined variable $data
+in APPPATH\Views\V_Mahasiswa.php on line 15.
+ 1 APPPATH\Views\V_Mahasiswa.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\BelajarFrameworkCI\\app\\Views\\V_Mahasiswa.php', 15)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\BelajarFrameworkCI\\app\\Views\\V_Mahasiswa.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('V_Mahasiswa', [], true)
+ 5 APPPATH\Controllers\C_Mahasiswa.php(14): view('V_Mahasiswa', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\C_Mahasiswa->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Mahasiswa))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\BelajarFrameworkCI\\public\\index.php')
+CRITICAL - 2023-09-01 02:07:44 --> Undefined variable $data
+in APPPATH\Views\V_Mahasiswa.php on line 15.
+ 1 APPPATH\Views\V_Mahasiswa.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\BelajarFrameworkCI\\app\\Views\\V_Mahasiswa.php', 15)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\BelajarFrameworkCI\\app\\Views\\V_Mahasiswa.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('V_Mahasiswa', [], true)
+ 5 APPPATH\Controllers\C_Mahasiswa.php(14): view('V_Mahasiswa', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\C_Mahasiswa->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Mahasiswa))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\BelajarFrameworkCI\\public\\index.php')
+CRITICAL - 2023-09-01 02:14:07 --> Invalid file: "data_view.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('data_view.php')
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('data_view', [], true)
+ 3 APPPATH\Controllers\C_Mahasiswa.php(15): view('data_view', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\C_Mahasiswa->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Mahasiswa))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-01 02:14:25 --> Undefined array key "id"
+in APPPATH\Views\V_Mahasiswa.php on line 17.
+ 1 APPPATH\Views\V_Mahasiswa.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\xampp\\htdocs\\BelajarFrameworkCI\\app\\Views\\V_Mahasiswa.php', 17)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\BelajarFrameworkCI\\app\\Views\\V_Mahasiswa.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('V_Mahasiswa', [], true)
+ 5 APPPATH\Controllers\C_Mahasiswa.php(15): view('V_Mahasiswa', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\C_Mahasiswa->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Mahasiswa))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
