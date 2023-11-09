@@ -17,7 +17,7 @@ class App extends BaseConfig
      *
      *    http://example.com/
      */
-    public string $baseURL = 'http://localhost/BelajarFrameworkCI/public';
+    public string $baseURL = 'https://muhammadabdhi.github.io/ecatalog/';
     // public string $baseURL = 'http://localhost:8080/';
 
     /**
